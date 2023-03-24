@@ -8,25 +8,31 @@ namespace EmployeeWagesProblem
         {
             Console.WriteLine("Welcome to employee wage Problem");
 
-            EmployeeCheckUC1 attendance = new EmployeeCheckUC1();
-            attendance.EmployeeAttendence();
+           //EmployeeCheckUC1 attendance = new EmployeeCheckUC1();
+           // attendance.EmployeeAttendence();
 
-            CalculateEmpWagesUC2 wage = new CalculateEmpWagesUC2();
-            wage.EmployeeWages();
+            // CalculateEmpWagesUC2 wage = new CalculateEmpWagesUC2();
+           //wage.EmployeeWages();
+           
+            //AddPartTimeUC3 parttime = new AddPartTimeUC3();
+            //parttime.Wages();
 
-            AddPartTimeUC3 parttime = new AddPartTimeUC3();
-            parttime.Wages();
+            //EmpWagesUsingSwitchCase switchcase = new EmpWagesUsingSwitchCase();
+            //switchcase.Case();
 
-            EmpWagesUsingSwitchCase switchcase = new EmpWagesUsingSwitchCase();
-            switchcase.Case();
+            //WageForMonthUC5 month = new WageForMonthUC5();
+            //month.WageForMonth();
 
-            WageForMonthUC5 month = new WageForMonthUC5();
-            month.WageForMonth();
+           //DaysCalculateUC6 days = new DaysCalculateUC6();
+           //days.MaxDaysMaxHoursWage();
 
-            //DaysCalculateUC6 days = new DaysCalculateUC6();
-           // days.MaxDaysMaxHoursWage();
+            // MethodToComputeEmpWageUC7.EmpWageUseCase7();
 
-            //MethodToComputeEmpWageUC7.EmpWageUseCase7();
+            MethodToComputeEmpWageUC7 method = new MethodToComputeEmpWageUC7();
+            method.EmployeeWageCondition();
+
+            EmpWagesForMultipleCompanyUC8.EmployeeWageUC8("BiggBazar", 50, 20, 34); 
+            
 
 
 
